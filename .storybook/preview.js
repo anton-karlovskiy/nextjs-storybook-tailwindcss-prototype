@@ -1,10 +1,16 @@
 
-export const parameters = {
+import '../styles/globals.css';
+
+const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
       color: /(background|color)$/i,
-      date: /Date$/,
-    },
-  },
-}
+      date: /Date$/
+    }
+  }
+};
+
+export {
+  parameters
+};
