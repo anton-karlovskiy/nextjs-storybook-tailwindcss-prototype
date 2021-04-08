@@ -40,7 +40,7 @@ export {
   Secondary,
   Large,
   Small
-}
+};
 
 export default {
   title: 'Example/Button',

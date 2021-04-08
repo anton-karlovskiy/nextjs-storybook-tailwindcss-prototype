@@ -24,11 +24,12 @@ export interface ButtonProps {
    * Optional click handler
    */
   onClick?: () => void;
-};
+}
 
 /**
  * Primary UI component for user interaction
  */
+
 export const Button: React.FC<ButtonProps> = ({
   primary = false,
   size = 'medium',
@@ -40,7 +41,7 @@ export const Button: React.FC<ButtonProps> = ({
 
   return (
     <button
-      type="button"
+      type='button'
       className={[
         'storybook-button',
         `storybook-button--${size}`,
