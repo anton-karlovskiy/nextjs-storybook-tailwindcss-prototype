@@ -12,7 +12,9 @@ module.exports = {
         'custom-properties': false
       }
     },
-    tailwindcss: {},
+    tailwindcss: {
+      config: './tailwind.config.js'
+    },
     autoprefixer: {}
   }
 };
