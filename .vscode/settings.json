@@ -19,6 +19,7 @@
     "headlessui",
     "nocheck",
     "semibold",
-    "tailwindcss"
+    "tailwindcss",
+    "xcoin"
   ]
 }

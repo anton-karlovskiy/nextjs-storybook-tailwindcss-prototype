@@ -1,5 +1,5 @@
 {
-  "name": "zen-exchange",
+  "name": "100xcoin-ui",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx --ignore-path .eslintignore",
     "lint-fix": "eslint . --fix --ext .ts,.tsx,.js,.jsx --ignore-path .eslintignore",
     "test-all": "yarn lint && yarn type-check",
-    "chromatic": "yarn chromatic --project-token=8d9861870170"
+    "chromatic": "chromatic --project-token"
   },
   "husky": {
     "hooks": {
